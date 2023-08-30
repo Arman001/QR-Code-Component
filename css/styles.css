@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+:root {
+  /* ___COLORS___ */
+  --WHITE: hsl(0, 0%, 100%);
+  --LIGHT-GREY: hsl(212, 45%, 89%);
+  --GRAYISH-BLUE: hsl(220, 15%, 55%);
+  --DARK-BLUE: hsl(218, 44%, 22%);
+
+  /**__FONT___*/
+  --FF: 'Outfit', sans-serif;
+  --FW-NORMAL:400;
+  --FW-BOLD:700;
+
+}
+
+
+/* Setting Defaults */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+svg,img{
+  display: block;
+  width: 100%;
+}
+
+/* Main Design */
+
+body{
+  font-family: var(--FF);
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+  min-height: 100vh;
+  background-color: var(--LIGHT-GREY);
+}
+
+.qr-card{
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  background-color: var(--WHITE);
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+}
+
+.qr-card img{
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.qr-card h1{
+  font-weight: var(--FW-BOLD);
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+
+}
+
+.qr-card .card-text{
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+
+}
+
+.qr-card p {
+  color: var(--GRAYISH-BLUE);
+  font-weight: var(--FW-NORMAL);
+  
+  
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+
